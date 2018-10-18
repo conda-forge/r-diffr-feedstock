@@ -16,7 +16,7 @@ source:
   sha256: e82ec76b4eadee8ec682f83a8a9d3ffe6309fc31e6c66db573d6e7f8fdb5bc79
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win32]
 
   rpaths:
@@ -47,6 +47,7 @@ about:
   license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-2'  # [win]
 extra:
    recipe-maintainers:
+    - dpryan79
     - MathiasHaudgaard
     - FrodePedersen
     - ArneKr
