@@ -14,9 +14,8 @@ Summary: An R interface to the 'codediff' JavaScript library (a copy of which is
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-diffr-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-diffr-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-diffr-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-diffr-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-diffr-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-diffr-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-diffr-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-diffr-feedstock)
 
 Current release info
 ====================
