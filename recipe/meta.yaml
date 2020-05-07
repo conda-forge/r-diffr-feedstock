@@ -1,4 +1,4 @@
-{% set version = '0.1' %}
+{% set version = "0.1" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -17,7 +17,7 @@ source:
 
 build:
   noarch: generic
-  number: 1002
+  number: 1003
 
   rpaths:
     - lib/R/lib/
@@ -39,12 +39,13 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=diffr
-  license: GPL-2
-  summary: An R interface to the 'codediff' JavaScript library (a copy of which is included in
-    the package, see <https
+  license: GPL-2.0-only
+  summary: An R interface to the 'codediff' JavaScript library (a copy of which is included in the package, see <https
   license_family: GPL2
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 extra:
-   recipe-maintainers:
+  recipe-maintainers:
     - conda-forge/r
     - dpryan79
     - MathiasHaudgaard
