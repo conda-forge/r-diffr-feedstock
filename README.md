@@ -7,7 +7,7 @@ Package license: GPL-2.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-diffr-feedstock/blob/master/LICENSE.txt)
 
-Summary: An R interface to the 'codediff' JavaScript library (a copy of which is included in the package, see <https
+Summary: An R interface to the 'codediff' JavaScript library (a copy of which is included in the package, see <https://github.com/danvk/codediff.js> for information). Allows for visualization of the difference between 2 files, usually text files or R scripts, in a browser.
 
 Current build status
 ====================
@@ -55,7 +55,8 @@ conda search r-diffr --channel conda-forge
 About conda-forge
 =================
 
-[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
+[![Powered by
+NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](https://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
@@ -116,12 +117,7 @@ Feedstock Maintainers
 =====================
 
 * [@ArneKr](https://github.com/ArneKr/)
-* [@Bgruening](https://github.com/Bgruening/)
-* [@Daler](https://github.com/Daler/)
 * [@FrodePedersen](https://github.com/FrodePedersen/)
-* [@Jdblischak](https://github.com/Jdblischak/)
-* [@Johanneskoester](https://github.com/Johanneskoester/)
 * [@MathiasHaudgaard](https://github.com/MathiasHaudgaard/)
 * [@conda-forge/r](https://github.com/conda-forge/r/)
-* [@dpryan79](https://github.com/dpryan79/)
 
