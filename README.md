@@ -1,11 +1,11 @@
-About r-diffr
-=============
+About r-diffr-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-diffr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=diffr
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-diffr-feedstock/blob/main/LICENSE.txt)
 
 Summary: An R interface to the 'codediff' JavaScript library (a copy of which is included in the package, see <https://github.com/danvk/codediff.js> for information). Allows for visualization of the difference between 2 files, usually text files or R scripts, in a browser.
 
