@@ -1,4 +1,4 @@
-{% set version = '0.1' %}
+{% set version = "0.3.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/diffr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/diffr/diffr_{{ version }}.tar.gz
-  sha256: e82ec76b4eadee8ec682f83a8a9d3ffe6309fc31e6c66db573d6e7f8fdb5bc79
+  sha256: 60ca909e62b4e8f48bcd934df1c840e0b461c9f3355317a03445f2184f8bb31a
 
 build:
-  number: 1007
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -37,10 +37,7 @@ test:
 about:
   home: https://CRAN.R-project.org/package=diffr
   license: GPL-2.0-only
-  summary: An R interface to the 'codediff' JavaScript library (a copy of which is included in
-    the package, see <https://github.com/danvk/codediff.js> for information). Allows
-    for visualization of the difference between 2 files, usually text files or R scripts,
-    in a browser.
+  summary: An R interface to the 'codediff' JavaScript library (a copy of which is included in the package, see <https://github.com/danvk/codediff.js> for information). Allows for visualization of the difference between 2 files, usually text files or R scripts, in a browser.
   license_family: GPL2
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
